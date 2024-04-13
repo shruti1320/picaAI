@@ -1,0 +1,25 @@
+@import "./common/color.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: " ";
+
+}
+a {
+  text-decoration: none;
+}
+
+// body {
+//   background: $font-color;
+// }
+
+
+@media (max-width: 600px) {
+  
+  .app{
+    width: fit-content;
+  }
+}
+

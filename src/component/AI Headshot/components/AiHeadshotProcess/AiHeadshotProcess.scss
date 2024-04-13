@@ -1,0 +1,151 @@
+.aiprocess-content {
+  margin: 0px auto;
+  max-width: 1080px;
+
+  @media (max-width: 720px) {
+    max-width: 100%;
+  }
+
+  .aiprocess-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+
+    @media (max-width: 720px) {
+      text-align: center;
+      font-size: 28px;
+      line-height: 1.4;
+    }
+  }
+
+  .aiprocess-text {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .aiprocess-container {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+    @media (max-width: 720px) {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+    }
+
+    .aiprocess-container-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+     
+
+      @media (max-width: 720px) {
+        flex-direction: row;
+        text-align: left;
+      }
+
+      .aiprocess-image {
+        width: 290px;
+        height: 290px;
+        max-width: 100%;
+        display: block;
+
+        @media (max-width: 720px) {
+          width: 80px;
+          height: 80px;
+          margin-right: 80px;
+        }
+      }
+
+      .aiprocess-item-text {
+        display: flex;
+        flex-direction: column;
+        max-width: "290px";
+
+        @media (max-width: 720px) {
+          text-align: left;
+        }
+      }
+      .aiprocess-item-title {
+        text-align: center;
+        margin: 24px auto 12px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        z-index: 1;
+
+        @media (max-width: 720px) {
+          text-align: left;
+          margin: 0px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+        }
+
+        .aiprocess-item-description {
+          @media (max-width: 720px) {
+            font-size: small;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            text-align: left;
+          }
+        }
+        .aiprocess-ellipse {
+          width: 32px;
+          height: 32px;
+          background: linear-gradient(
+              138deg,
+              rgb(255, 214, 248) 0%,
+              rgb(198, 189, 255) 94.85%
+            ),
+            rgb(217, 217, 217);
+          border-radius: 50%;
+          left: 0px;
+          z-index: -1;
+
+          @media (max-width: 720px) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .aiprocess-arrow {
+      width: 77px;
+      height: 55px;
+      margin-top: -108px;
+      margin-left: 40px;
+      margin-right: 40px;
+
+      @media (max-width: 720px) {
+        display: none;
+      }
+    }
+  }
+
+  .aiprocess-button {
+    width: 278px;
+    color: black;
+    margin: auto;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: white;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1080px) {
+  // Adjust max-width for smaller screens
+  .aiprocess-content {
+    padding: 20px;
+  }
+}

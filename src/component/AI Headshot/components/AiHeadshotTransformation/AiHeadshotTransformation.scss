@@ -1,0 +1,93 @@
+.t-middle {
+    .t-animator {
+      display: flex;
+      margin: 70px auto;
+      color: rgb(44, 44, 44);
+      width: 100vw;
+      animation: moveLeft 5s infinite linear;
+     
+  
+      .t-item {
+        background-color: rgb(39 37 37);
+        border-radius: 16px;
+        width: 380px;
+        padding: 28px 36px 40px;
+        margin-right: 40px;
+        flex-shrink: 0;
+        transition: transform 0.5s ease; /* Add transition for smoother movement */
+  
+        .t-info {
+          display: flex;
+  
+          .avatar {
+            width: 64px;
+            height: 64px;
+            margin-right: 16px;
+          }
+  
+          .t-text {
+            display: flex;
+            flex-direction: column;
+            margin-top: 7px;
+          }
+  
+          .t-name {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            color: rgb(255, 255, 255);
+          }
+  
+          .t-job {
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: rgb(146, 146, 146);
+          }
+        }
+  
+        .t-content {
+          margin: 25px 0px;
+          color: rgb(255, 255, 255);
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.1px;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 5;
+        }
+  
+
+        .t-showcase {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  
+.t-button {
+    width: 278px;
+    color: rgb(23, 23, 23);
+    margin: auto;
+    display: flex;
+    padding: 20px 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0); /* Initial position */
+    }
+    100% {
+      transform: translateX(calc(-380px - 40px)); /* Move one item width to the left */
+    }
+  }
+  

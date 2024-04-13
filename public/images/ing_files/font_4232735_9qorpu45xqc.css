@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4232735 */
+  src: url('//at.alicdn.com/t/c/font_4232735_9qorpu45xqc.woff2?t=1705895980862') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4232735_9qorpu45xqc.woff?t=1705895980862') format('woff'),
+       url('//at.alicdn.com/t/c/font_4232735_9qorpu45xqc.ttf?t=1705895980862') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aigcicon-ic_user:before {
+  content: "\e620";
+}
+
+.aigcicon-ic_arrow_down:before {
+  content: "\e61f";
+}
+
+.aigcicon-ic_minimize:before {
+  content: "\e61e";
+}
+
+.aigcicon-ic_finish:before {
+  content: "\e61d";
+}
+
+.aigcicon-ic_discord:before {
+  content: "\e61c";
+}
+
+.aigcicon-a-ic_edit-svg-photopeachuli:before {
+  content: "\e61b";
+}
+
+.aigcicon-ic_edit_sketchceshi:before {
+  content: "\e61a";
+}
+
+.aigcicon-ic_edit-011:before {
+  content: "\e619";
+}
+
+.aigcicon-ic_edit-01:before {
+  content: "\e618";
+}
+
+.aigcicon-ic_liked:before {
+  content: "\e615";
+}
+
+.aigcicon-ic_like1:before {
+  content: "\e616";
+}
+
+.aigcicon-ic_edit2:before {
+  content: "\e617";
+}
+
+.aigcicon-ic_information:before {
+  content: "\e614";
+}
+
+.aigcicon-ic_contrast:before {
+  content: "\e613";
+}
+
+.aigcicon-ic_credit:before {
+  content: "\e60e";
+}
+
+.aigcicon-ic_exit:before {
+  content: "\e610";
+}
+
+.aigcicon-ic_photo_cleaner:before {
+  content: "\e611";
+}
+
+.aigcicon-ic_check:before {
+  content: "\e60f";
+}
+
+.aigcicon-ic_add:before {
+  content: "\e60d";
+}
+
+.aigcicon-ic_more_vertical:before {
+  content: "\e60a";
+}
+
+.aigcicon-ic_upload:before {
+  content: "\e607";
+}
+
+.aigcicon-ic_delete:before {
+  content: "\e608";
+}
+
+.aigcicon-ic_close:before {
+  content: "\e609";
+}
+
+.aigcicon-ic_like:before {
+  content: "\e606";
+}
+
+.aigcicon-ic_download:before {
+  content: "\e605";
+}
+

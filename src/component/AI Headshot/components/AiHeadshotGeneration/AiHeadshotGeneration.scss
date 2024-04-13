@@ -1,0 +1,122 @@
+@media (max-width: 500px) {
+  .left-heading {
+    font-size: 12px;
+  }
+  .responsive-btn {
+    justify-content: center; /* Center the appearing button */
+  }
+}
+
+.inner-wrapper {
+  @media (max-width: 720px) {
+    flex-direction: column;
+    padding: 6vw;
+  }
+  padding: 100px 0;
+
+  .left-box {
+    @media (max-width: 720px) {
+      width: 100%;
+      text-align: center; /* Center text for smaller screens */
+    }
+
+    width: 548px;
+    display: flex;
+    flex-direction: column;
+
+    .left-heading {
+      font-size: 48px;
+      font-weight: 800;
+
+      @media (max-width: 720px) {
+        text-align: center; /* Center text for smaller screens */
+      }
+      @media (max-width: 400px) {
+        font-size: 32px; /* Adjust font size for very small screens */
+      }
+    }
+
+    .left-text {
+      font-size: 18px;
+
+      @media (max-width: 720px) {
+        text-align: center; /* Center text for smaller screens */
+      }
+      @media (max-width: 400px) {
+        font-size: 14px; /* Adjust font size for very small screens */
+      }
+    }
+
+    .ai-button {
+      @media (max-width: 720px) {
+        display: none; /* Center the appearing button */
+      }
+    }
+  }
+
+  .right-box {
+    width: 560px;
+    height: 308px;
+    padding: 22px 0;
+    border-radius: 16px;
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+
+    @media (max-width: 720px) {
+      width: -webkit-fill-available;
+      background-color: unset;
+      height: auto;
+    }
+
+    .img-line {
+      display: flex;
+      min-width: 667px;
+      height: 128px;
+      position: relative;
+
+      img {
+        max-width: 100%;
+        vertical-align: middle;
+
+        &:not(:first-child) {
+          margin-left: 11px;
+        }
+      }
+
+      &:not(:first-child) {
+        margin-top: 10px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        display: block;
+
+        img {
+          max-width: 100%;
+          vertical-align: middle;
+
+          &:not(:first-child) {
+            margin-left: 11px;
+          }
+        }
+      }
+
+      animation: moveLeft 15s linear infinite;
+      animation-delay: -7.5s; /* Delay the animation of the original images */
+    }
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
